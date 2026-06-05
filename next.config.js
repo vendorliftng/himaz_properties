@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/himaz_properties',
+  assetPrefix: '/himaz_properties',
   images: {
     unoptimized: true,
     formats: ['image/webp'],
